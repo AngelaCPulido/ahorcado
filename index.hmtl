@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ahorcado</title>
+    <script type="text/javascript" src="js/ahorcado.js"></script>
+    <style type="text/css">
+    body
+    {
+        background-image: url("images/madera.jpg");
+        color: black;
+        text-align: center;
+        font-family: "Tahoma", "Geneva", sans-serif; 
+    }
+    </style>
+</head>
+<body>
+    <h1>Adivina la palabra!</h1>
+    
+    <canvas id="c"></canvas> 
+
+    <p> Elije una letra:
+        <input type="text" id = "letra"/>
+        <input type="button" id ="boton" value="Ouch!"/>
+    </p>
+
+    <h2 id="pista">_ _ _</h2>
+
+    <script type="text/javascript">
+    inicio();
+    </script>
+</body>
+</html>
